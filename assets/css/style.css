@@ -103,9 +103,9 @@ li {
     justify-content: center;
     align-items: center;
     background-image: url("../img/print-portfolio.jpeg");
-    background-size: 32vw;
+    background-size: 32.4vw;
     background-repeat: no-repeat;
-    background-position: 50% 55%;
+    background-position: 50% 50%;
 }
 #site {
     width: 36vw;

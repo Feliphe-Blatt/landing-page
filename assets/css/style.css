@@ -169,15 +169,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: 19.5vw 8.2vw;
+    background-size: 19vw;
     background-repeat: no-repeat;
-    background-position: 50% 10%;
+    background-position: 50% 11%;
     filter: drop-shadow(0vw 0vh .5vw rgba(0, 0, 0, .8));
 }
 .site {
-    height: 12.1vw;
-    width: 24.3vw;
-    max-width: 360px;
+    height: 16vw;
+    width: 24vw;
     border-radius: 10%;
     filter: drop-shadow(0vw 0vh .5vw rgba(0, 0, 0, .8));
     transition: all 200ms ease-in-out;

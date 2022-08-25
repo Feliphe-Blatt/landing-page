@@ -1,34 +1,70 @@
 <!doctype html>
-
 <html lang="pt-BR">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Landing Page</title>
+        <title>- Prazer, Feliphe Blatt.</title>
         <link rel="stylesheet" href="./assets/css/style.css">
         <link rel="icon" href="./assets/img/pin.png">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link 
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
-            rel="stylesheet">
     </head>
 
     <body>
-        <aside id="prancheta" title="Prancheta" alt="Prancheta">
+        <aside id="prancheta" title="Prancheta">
             <nav id="secoes">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li>Ex.: <a href="#">Links</a>;</li>
-                    <li>Ex.: <a href="#">Formulários e Tabelas</a>;</li>
-                    <li>Ex.: <a href="#">Landing Pages</a>.</li>
-                    <li><a href="#">Rodapé</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li>Ex.: <a href="#portfolio">Portfólio</a></li>
+                    <li>Ex.: <a href="#">Redirect Page</a></li>
+                    <li>Ex.: <a href="#">Formulário e Tabela</a></li>
+                    <li><a href="#contato">Contato & Downloads</a></li>
                 </ul>
             </nav>
         </aside>
+
         <main id="quadro">
-            <figure id="phone">
-                <img src="./assets/img/celular.png" id="site" title="Preview Versão Mobile" alt="Preview Versão Mobile do Site">
-            </figure>
+            <header id="inicio"></header>
+
+            <div id="infos">
+                <figure id="foto-perfil" title="Feliphe Blatt, Foto 3x4." alt="Foto na proporção 3 por 4 de Feliphe Blatt">
+                    <a href="#contato">
+                        <img id="pino-icon"
+                            src="./assets/img/pin.png"
+                            title="Pino">
+                    </a>
+                </figure>
+                <fieldset id="descricao">
+                    <h1 id="nome-completo">~Feliphe Sousa Blatt~</h1>
+                    <div id="programador"><b>Programador:</b></div>
+                    <ul id="lista-programador">
+                        <li>Arduino/Esp.</li>
+                        <li>C++ ;</li>
+                        <li>Python ;</li>
+                        <li>Html + Css ;</li>
+                        <li>JavaScript (Em Breve) ;</li>
+                    </ul>
+                </fieldset>
+            </div>
+
+            <div id="portfolio" class="exemplo-site">
+                <figure id="portfolio-desktop" class="desktop">
+                    <img src="./assets/img/notebook.png" class="site" title="Preview Versão Desktop" alt="Preview Versão Desktop do Site">
+                </figure>
+                <figure id="portfolio-mobile" class="phone">
+                    <img src="./assets/img/celular.png" class="site-mobile" title="Preview Versão Mobile" alt="Preview Versão Mobile do Site">
+                </figure>
+            </div>
+
+            <footer id="contato">
+                <fieldset id="curriculo">
+                    <legend><b>Contato & Downloads:</b></legend>
+                    <a id="pdf-link" target="_blank" href="./assets/downloads/FelipheBlatt-2022.pdf">
+                        <img id="pdf-icon" 
+                            src="./assets/img/pdf.png"
+                            title="Baixar currículo em formato PDF"
+                            alt="Baixar currículo em formato PDF">
+                    </a>
+                </fieldset>
+            </footer>
         </main>
     </body>
 </html>

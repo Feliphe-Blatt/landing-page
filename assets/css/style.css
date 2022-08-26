@@ -75,18 +75,19 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 6vw;
-    left: 4vw;
-}
-#secoes a {
-    text-decoration: none;
+    top: 3vw;
+    left: 3vw;
 }
 #secoes li {
     list-style: circle;
     font-family: sans-serif;
-    font-size: 1.6vw;
     font-weight: bold;
-    padding: 5% 0vw;
+    font-size: large;
+    padding: 10% 0vw;
+}
+#secoes a {
+    text-decoration: none;
+    font-size: medium;
 }
 #secoes a:link {
     color: rgb(80, 0, 0);
@@ -157,11 +158,11 @@ body {
     font-weight: bolder;
 }
 .topico {
-    font-size: normal;
+    font-size: x-large;
     font-weight: bolder;
 }
 .detalhes {
-    font-size: normal;
+    font-size: large;
     font-weight: normal;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -244,8 +245,8 @@ body {
     box-shadow: .2vw .1vh 1vh rgba(0, 0, 0, 0.7);
     border-radius: 1vw;
     border: solid .1vh rgba(0, 0, 0, .2);
-    font-size: 3vw;
     font-weight: bold;
+    font-size: xx-large;
     text-shadow: 0vw 0vh 1vh rgba(255, 255, 255, 0.3);
     transition: all 200ms ease-in-out;
 }
@@ -259,8 +260,8 @@ body {
     border-radius: 1vw;
     padding: 0vh 1vw;
     opacity: .9;
-    font-size: 2.4vw;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: x-large;
     background-color: rgba(0, 0, 0, 0.2);
     box-shadow: .2vw .1vh 1vh rgba(0, 0, 0, 0.7);
     border: solid .1vh rgba(0, 0, 0, .2);
@@ -287,12 +288,12 @@ body {
     }
     #prancheta {
         margin: 2vh;
-        height: 30vw;
-        width: 30vw;
+        height: 48vw;
+        width: 50vw;
     }
     #secoes {
-        top: 4vw;
-        left: 4vw;
+        top: 7vw;
+        left: 5vw;
     }
     #secoes li {
         font-size: 2vw;

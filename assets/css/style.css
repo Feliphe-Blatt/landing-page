@@ -83,7 +83,7 @@ body {
     font-family: sans-serif;
     font-weight: bold;
     font-size: large;
-    padding: 10% 0vw;
+    padding: 5% 0vw;
 }
 #secoes a {
     text-decoration: none;
@@ -215,10 +215,10 @@ body {
     filter: drop-shadow(0vw 0vh 1vw rgba(0, 0, 0, 1));
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-#portfolio-mobile {
+#landing-mobile {
     background-image: url("../img/print-portfolio.png");
 }
-#portfolio-desktop {
+#landing-desktop {
     background-image: url("../img/portfolio-desktop.png");
 }
 #redirect-mobile {
